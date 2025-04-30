@@ -17,3 +17,14 @@ class Calculator
 end
 
 
+# To execute from terminal
+if __FILE__ == $0
+  method = ARGV[0]
+  argument = ARGV[1]
+
+  if Calculator.respond_to?(method)
+    puts Calculator.send(method, *argument)
+  else
+    puts "something went wrong!"
+  end
+end
