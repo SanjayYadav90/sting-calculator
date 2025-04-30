@@ -2,7 +2,6 @@
 
 class Calculator
 	def self.add(input_str)
-		return "Input should be string." if !input_str.is_a?(String)
 		return 0 if input_str.empty?
 		result = []
 		refined_arr = input_str.scan(/-?\d+(?:\.\d+)?/)
