@@ -10,7 +10,9 @@
 
 	To execute calculator
 
-		ruby calculator.rb
+		ruby calculator.rb add "1,5"
+
+		result: 6 
 
 * Screenshots
 
