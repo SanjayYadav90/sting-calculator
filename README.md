@@ -2,13 +2,12 @@
 
 ** Ruby script to create a simple String Calculator **
 
-* Steps to execute:
-	To execute test cases
+* Steps to execute test case:
 		
 		ruby test-calculator.rb
 
 
-	To execute calculator
+*	Step to execute calculator
 
 		ruby calculator.rb add "1,5"
 
